@@ -436,4 +436,13 @@ footer a {
     max-width: 83ch;
     line-height: 2;
   }
+  @media print {
+    .html5 {
+      display: inline;
+      float: left;
+    }
+    main p:nth-last-of-type(2) {
+      display: inline-block;
+    }
+  }
 }
